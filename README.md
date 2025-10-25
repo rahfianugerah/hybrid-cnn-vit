@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ### Hybrid CNN–Vision Transformer Notebook for Image Classification
 
 <p align="justify">
