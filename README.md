@@ -1,5 +1,10 @@
-<<<<<<< HEAD
-### Hybrid CNN–Vision Transformer Notebook for Image Classification
+![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?&logo=PyTorch&logoColor=white)
+![Python](https://img.shields.io/badge/python-3670A0?&logo=Python&logoColor=ffdd54)
+![Maintenance](https://img.shields.io/badge/Maintenance-Yes-green)
+[![MIT license](https://img.shields.io/badge/License-MIT-green)](LICENSE)
+![Build](https://img.shields.io/badge/Build-50%25-FCB53B)
+
+### Hybrid CNN-Vision Transformer Notebook for Image Classification
 
 <p align="justify">
 This repository contains a single Jupyter Notebook implementing a hybrid Convolutional Neural Network (CNN) and Vision Transformer (ViT) architecture for image classification. The approach combines convolutional feature extraction with transformer-based global self-attention, including patch embedding to convert image blocks into token sequences for the transformer encoder.
@@ -11,7 +16,7 @@ All training, hyperparameter search, model evaluation, and logging are performed
 
 ### Project Objective
 <p align="justify">
-The goal of this work is to develop and evaluate a hybrid CNN–ViT model using the CIFAR-10 dataset. The model leverages:
+The goal of this work is to develop and evaluate a hybrid CNN-ViT model using the CIFAR-10 dataset. The model leverages:
 </p>
 
 - CNN layers for localized spatial feature extraction  
@@ -28,7 +33,7 @@ The notebook is structured into the following sections:
 
 1. Environment setup and library installation
 2. Data loading and augmentation pipeline
-3. Hybrid CNN–ViT model definition including patch embedding
+3. Hybrid CNN-ViT model definition including patch embedding
 4. Training loop with logging and checkpointing
 5. Optuna hyperparameter optimization
 6. Evaluation and performance reporting
@@ -83,7 +88,7 @@ The notebook automatically logs:
 Extracted from notebook execution logs:
 
 - Best Top-1 Test Accuracy: `85.3%`
-- Best Test F1-Score: `0.85` 
+- Best Test F1-Score: `0.85`
 
 These metrics were obtained after running Optuna-tuned training on GPU.
 
@@ -123,7 +128,7 @@ The notebook implements:
    title={Hybrid CNN–Vision Transformer for Image Classification},
    author={Clavino Ourizqi Rachmadi, Naufal Rahfi Anugerah},
    year={2025},
-   url={https://github.com/your-repo}
+   url={https://github.com/clavinorach/hybrid-cnn-vit}
 }
 ```
 
