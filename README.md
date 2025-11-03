@@ -19,11 +19,11 @@ All training, hyperparameter search, model evaluation, and logging are performed
 The goal of this work is to develop and evaluate a hybrid CNN-ViT model using the CIFAR-10 dataset. The model leverages:
 </p>
 
-- CNN layers for localized spatial feature extraction  
-- Patch embedding to convert image patches into token representations  
-- Transformer encoder layers for global context modeling  
-- Optuna for automated hyperparameter tuning  
-- GPU acceleration for efficient training  
+- CNN layers for localized spatial feature extraction
+- Patch embedding to convert image patches into token representations
+- Transformer encoder layers for global context modeling
+- Optuna for automated hyperparameter tuning
+- GPU acceleration for efficient training
 
 This notebook provides a complete, reproducible training pipeline suitable for academic research, benchmarking, and competition submissions.
 
@@ -77,13 +77,18 @@ Training setup executed inside the notebook includes:
 
 The notebook automatically logs:
 
-- Training accuracy
-- Test accuracy
-- F1-score
-- Loss curves
-- Best model checkpoint
+- Training Accuracy
+- Test Accuracy
+- F1-Score
+- Loss Curves (Not Implemented)
+- Best Model Checkpoint
 
 ### Results
+Run: modal.com [modal.com](https://modal.com)
+Kernel Settings:
+- 4 vCPU
+- 16 GB RAM
+- Nvidia L4 24GB
 
 Extracted from notebook execution logs:
 
@@ -107,10 +112,10 @@ These metrics were obtained after running Optuna-tuned training on GPU.
 
 Other directories created automatically during notebook execution may include:
 
-- Checkpoint files
-- Metric logs
-- Saved Optuna studies
-- Output artifacts (e.g., confusion matrices, evaluation reports)
+- Checkpoint Files
+- Metric Logs
+- Saved Optuna Studies
+- Output Artifacts
 
 ### Reproducibility
 
