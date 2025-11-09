@@ -2,7 +2,7 @@
 ![Python](https://img.shields.io/badge/python-3670A0?&logo=Python&logoColor=ffdd54)
 ![Maintenance](https://img.shields.io/badge/Maintenance-Yes-green)
 [![MIT license](https://img.shields.io/badge/License-MIT-green)](LICENSE)
-![Build](https://img.shields.io/badge/Build-50%25-FCB53B)
+![Build](https://img.shields.io/badge/Build-Passing-green)
 
 ### Hybrid CNN-Vision Transformer Notebook for Image Classification
 
@@ -83,33 +83,14 @@ The notebook automatically logs:
 - Loss Curves (Not Implemented)
 - Best Model Checkpoint
 
-### Project Structure
-```bash
-.
-├── .gitignore
-├── LICENSE # license
-├── README.md # documentations
-├── hybrid-cnn-vit.ipynb # main notebook
-└── vit-hybrid-optuna # artifacts
-    ├── best_hybrid_cnn_vit.pth
-    ├── hybrid_cnn_vit_full.pth
-    └── optuna_best.json
-```
 
-### Results
+### Experiment Results
 Run: [modal.com](https://modal.com)
 
 Kernel Settings:
 - 4 vCPU
 - 16 GB RAM
 - Nvidia L4 24GB
-
-Extracted from notebook execution logs:
-
-- Best Top-1 Test Accuracy: `85.3%`
-- Best Test F1-Score: `0.85`
-
-These metrics were obtained after running Optuna-tuned training on GPU.
 
 ### How to Use the Notebook
 
@@ -122,7 +103,7 @@ These metrics were obtained after running Optuna-tuned training on GPU.
 
 ### Files Included
 
-- `hybrid-cnn-vit-updated.ipynb` > end-to-end notebook
+- `hybrid-cnn-vit.ipynb` > end-to-end notebook
 
 Other directories created automatically during notebook execution may include:
 
